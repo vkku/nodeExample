@@ -36,8 +36,8 @@ Meteor.methods({
   "weather": function (zip) {
     console.log('Get weather for', zip);
     // Construct the API URL
-    var apiKey = "4a9f8bf55a0e5cb9a291b3f619a28d1a";
-    var apiUrl = "http://api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us&units=imperial&APPID=" + apiKey;
+    //var apiKey = "4a9f8bf55a0e5cb9a291b3f619a28d1a";
+    var apiUrl = "http://api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us&units=imperial&APPID=4a9f8bf55a0e5cb9a291b3f619a28d1a";
     // query the API
     var response = HTTP.get(apiUrl).data;
     return response;
