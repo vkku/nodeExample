@@ -22,6 +22,7 @@ Template.info.onCreated(function () {
   Meteor.subscribe('links.all');
 });
 
+
 Template.info.helpers({
   links() {
     return Links.find({});
@@ -50,16 +51,6 @@ HTTP.call('GET', 'https://newsapi.org/v1/articles?source=ars-technica&sortBy=top
 
 
 
-
-
-
-
-
-
-
-
-
-
 Template.info.events({
   'submit .info-link-add'(event) {
     event.preventDefault();
@@ -68,8 +59,6 @@ Template.info.events({
     const passphrase = $('#passphrase').val();
     var newsletterNum = $('#newsletter:checkbox:checked').length;
     var newsletterOpt = String(newsletterNum);
-
-
 
   
     Meteor.call('links.insert', username, email, passphrase,newsletterOpt, (error) => {

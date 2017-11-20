@@ -22,19 +22,20 @@ FlowRouter.route('/database', {
     BlazeLayout.render('App_body', { main: 'database' });
   },
 });
-
+/*
 FlowRouter.route('/weather', {
   name: 'App.db',
   action() {
     BlazeLayout.render('weather');
   },
-/*  
-FlowRouter.route('/weather', {
+  */
+
+FlowRouter.route('/weather/', {
   name: 'App.db',
   action() {
     BlazeLayout.render('App_body', { main: 'weather' });
   },  
-*/ 
+
   
   
 });

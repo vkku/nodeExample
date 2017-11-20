@@ -9,6 +9,11 @@
 </body>
 -->
 <template name="weather">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
+
+<!--
 	<div class="weather">
 		<h3>Enter a zip code to see weather results:</h3>
 		<form class="zip-code form-inline">
@@ -32,4 +37,8 @@
 			</div>
 		</div>
 	</div>
+	-->
+	<div id="weather"></div>
+
+<button class="js-geolocation" id="js-geolocation">Use Your Location</button>
 </template> 

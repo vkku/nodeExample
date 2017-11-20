@@ -31,3 +31,4 @@ jquery
 twbs:bootstrap
 udondan:slick
 session
+clinical:winston-browser-logging
