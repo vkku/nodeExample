@@ -28,6 +28,15 @@ FlowRouter.route('/weather', {
   action() {
     BlazeLayout.render('weather');
   },
+/*  
+FlowRouter.route('/weather', {
+  name: 'App.db',
+  action() {
+    BlazeLayout.render('App_body', { main: 'weather' });
+  },  
+*/ 
+  
+  
 });
 
 FlowRouter.notFound = {
