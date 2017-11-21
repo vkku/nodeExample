@@ -1,3 +1,0 @@
-https://codepen.io/anon/pen/ooENGJ
-
-https://github.com/selaias/meteor-simpleweather

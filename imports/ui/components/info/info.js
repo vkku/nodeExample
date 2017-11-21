@@ -69,9 +69,7 @@ Template.info.events({
         email.value = '';
         passphrase.value = '';
         newsletterOpt.value = '';
-        //console.log('hello'); //Browser Log
-        Meteor.call("logToConsole", "Hello Meteor World");  //Server Log
-        //Meteor.call("fetchNews");
+        Winston.log('info', 'Enteries Logged Successfully');
       }
     });
   },
