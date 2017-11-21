@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# nodeExample
+>>>>>>> d0c6fdc1a9710518b70cd3f127ecb2217fee1b40
 # Instructions for running the app
 ## Quick Start
 
